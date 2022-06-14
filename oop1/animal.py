@@ -40,3 +40,9 @@ if __name__ == "__main__":
 
     #เรียกดู instance valuable ทั้งหมด
     print(f'{ula.__dict__}')
+
+    peter = Animal()
+    peter.new_animal('Peter','Parrot','Green,Yellow,Red','2')
+    # add new attribute to peter
+    peter.legs = 2
+    print(f'{peter.__dict__}')
