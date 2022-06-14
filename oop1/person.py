@@ -32,7 +32,7 @@ print(f'Class Variable : {Person.country}')
 print(f'Instance Variable : {Lisa.country}')
 
 #assign value
-Lisa.country = 'Korea'
+Lisa.country = 'Korean'
 print('-----------')
 print(f'Class Variable : {Person.country}')
 print(f'Instance Variable : {Lisa.country}')
