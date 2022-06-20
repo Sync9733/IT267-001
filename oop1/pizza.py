@@ -4,7 +4,7 @@ class Pizza:
 
     def __repr__(self):
         #ส่งคืนค่าที่สามารถพิมพ์ได้
-        return(f'Pizza({self.ingredients}')
+        return(f'Pizza({self.ingredients})')
 
     @classmethod
     def margherita(cls):
