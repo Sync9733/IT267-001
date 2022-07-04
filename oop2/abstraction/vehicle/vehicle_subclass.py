@@ -37,14 +37,14 @@ class Truck(Vehicle):
         super().__init__(brand, speed)
         self.__capacity = 0
         self.__wheel = 0
-    @property #year
+    @property
     def capacity(self):
         return self.__capacity
     @capacity.setter
     def capacity(self,value):
         self.__capacity = value
     
-    @property #maintanance
+    @property
     def wheel(self):
         return self.__wheel
     @wheel.setter
@@ -70,14 +70,14 @@ class Motocycle(Vehicle):
         super().__init__(brand, speed)
         self.__cc = 150
         self.__model = None
-    @property #year
+    @property
     def cc(self):
         return self.__cc
     @cc.setter
     def cc(self,value):
         self.__cc = value
     
-    @property #maintanance
+    @property
     def model(self):
         return self.__model
     @model.setter

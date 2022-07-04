@@ -1,5 +1,5 @@
 #ต้อง import แบบนี้เสมอสำหรับ abstract class
-from abc import ABC, abstractclassmethod, abstractmethod
+from abc import ABC, abstractmethod
 
 class Vehicle(ABC):
     def __init__(self,brand,speed) -> None:
