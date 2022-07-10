@@ -1,5 +1,5 @@
 class Juiceorder:
-    def __init__(self,menu:str,size:str,price:int = 0) -> None:
+    def __init__(self,menu:str,size:str,price:int=0) -> None:
         self.menu = menu.upper()
         self.size = size.upper()
         self.price = price
