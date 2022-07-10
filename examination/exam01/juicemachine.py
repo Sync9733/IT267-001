@@ -1,8 +1,8 @@
 class Juiceorder:
-    def __init__(self,menu:str,size:str) -> None:
+    def __init__(self,menu:str,size:str,price:int = 0) -> None:
         self.menu = menu.upper()
         self.size = size.upper()
-        self.price = 0
+        self.price = price
     
     def check_menu(self):
         if self.menu == 'ORANGE JUICE':
